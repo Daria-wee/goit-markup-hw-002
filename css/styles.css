@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto","Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;  
 }
@@ -57,7 +57,9 @@ font-weight: 700;
     line-height: 1.17;
 }
 
-.header-menu {}
+.header-menu:hover {
+    color: #404bbf;
+}
 
 .header-menu-item {
     color: #2e2f42;
@@ -68,9 +70,7 @@ font-weight: 700;
 
     
 }
-.header-menu-item:hover {
-    color: #404bbf;
-}
+
 .header-menu-item:focus {
     color: #404bbf;
 }
@@ -84,6 +84,7 @@ font-weight: 700;
     
 }
 .header-contacts-list {
+    color: #434455;
 
 }
 .header-contacts-item:hover {
@@ -201,10 +202,11 @@ nav {
 .portfolio-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .portfolio-list {
